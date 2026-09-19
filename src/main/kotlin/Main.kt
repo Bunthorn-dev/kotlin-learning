@@ -1,10 +1,9 @@
 package org.lesson
 
-fun main() {
-    val name = "Kotlin"
-    println("Hello, " + name + "!")
+import lessons.video3
+import lessons.video2
 
-    for (i in 1..5) {
-        println("i = $i")
-    }
+fun main() {
+    video2()
+    video3()
 }
